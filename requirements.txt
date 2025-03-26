@@ -59,9 +59,6 @@ urllib3==2.2.1
 validators==0.22.0
 watchdog==4.0.0
 zipp==3.18.1
-setuptools>=69.0.0  # distutils 제거 이후 필수 조건
-# backports.zoneinfo - 삭제됨 (Python 3.12 이상에서는 필요 없음)
-lxml==5.1.0                #  Python 3.12 호환 최신 버전
-# MarkupSafe - 삭제됨 (Jinja2 내부 의존성)
-# protobuf - 삭제됨 (Streamlit 내부 의존성)
-pyarrow==14.0.2           #  Python 3.12용 wheel 제공됨 (빌드 없이 설치 가능)
+setuptools>=69.0.0  
+lxml==5.1.0            
+pyarrow==14.0.2        
