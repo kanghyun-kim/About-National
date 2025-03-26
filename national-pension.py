@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import re
 import streamlit as st
+import lxml.html
+import requests
+from bs4 import BeautifulSoup
 import platform
 
 # # 한글 폰트 설정
